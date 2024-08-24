@@ -24,10 +24,6 @@ class MoviesViewModel {
         }
     }
     
-    func fetchImage(completion: @escaping () -> ()) {
-        
-    }
-    
     func numberOfRowsInSection(section: Int) -> Int {
         if popularMovies.count != 0 {
             return popularMovies.count

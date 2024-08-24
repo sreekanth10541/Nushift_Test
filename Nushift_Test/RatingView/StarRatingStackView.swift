@@ -1,8 +1,8 @@
 //
 //  StarRatingStackView.swift
+//  Nushift_Test
 //
-//  Created by Guido on 7/1/20.
-//  Copyright © applified.life - All rights reserved.
+//  Created by SREEKANTH on 23/08/24.
 //
 
 import UIKit

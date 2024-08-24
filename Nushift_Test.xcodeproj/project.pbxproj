@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EAD2EF72C79C5CE00057D63 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAD2EF62C79C5CE00057D63 /* MovieDetailsViewController.swift */; };
+		5EAD2EF92C79C72E00057D63 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAD2EF82C79C72E00057D63 /* UIViewController+NavigationController.swift */; };
+		5EAD2F052C79D02C00057D63 /* StarRatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAD2F012C79D02C00057D63 /* StarRatingStackView.swift */; };
+		5EAD2F062C79D02C00057D63 /* StarRatingStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EAD2F022C79D02C00057D63 /* StarRatingStackView.xib */; };
+		5EAD2F072C79D02C00057D63 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAD2F032C79D02C00057D63 /* StarRatingView.swift */; };
 		5EB6603A2C78A487006672CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB660392C78A487006672CA /* AppDelegate.swift */; };
 		5EB6603C2C78A487006672CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6603B2C78A487006672CA /* SceneDelegate.swift */; };
-		5EB6603E2C78A487006672CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6603D2C78A487006672CA /* ViewController.swift */; };
 		5EB660412C78A487006672CA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5EB660402C78A487006672CA /* Base */; };
 		5EB660432C78A489006672CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB660422C78A489006672CA /* Assets.xcassets */; };
 		5EB660462C78A489006672CA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5EB660452C78A489006672CA /* Base */; };
 		5EB660512C78A489006672CA /* Nushift_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB660502C78A489006672CA /* Nushift_TestTests.swift */; };
 		5EB6605B2C78A489006672CA /* Nushift_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6605A2C78A489006672CA /* Nushift_TestUITests.swift */; };
 		5EB6605D2C78A489006672CA /* Nushift_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6605C2C78A489006672CA /* Nushift_TestUITestsLaunchTests.swift */; };
+		5EB6606F2C78ADFE006672CA /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6606E2C78ADFE006672CA /* MoviesModel.swift */; };
+		5EB660712C78B037006672CA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB660702C78B037006672CA /* APIService.swift */; };
+		5EB660732C78B30A006672CA /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB660722C78B30A006672CA /* MoviesViewController.swift */; };
+		5EB660752C78B344006672CA /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB660742C78B344006672CA /* MoviesViewModel.swift */; };
+		5EB660772C78B49A006672CA /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB660762C78B49A006672CA /* MoviesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EAD2EF62C79C5CE00057D63 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		5EAD2EF82C79C72E00057D63 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
+		5EAD2F012C79D02C00057D63 /* StarRatingStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRatingStackView.swift; sourceTree = "<group>"; };
+		5EAD2F022C79D02C00057D63 /* StarRatingStackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarRatingStackView.xib; sourceTree = "<group>"; };
+		5EAD2F032C79D02C00057D63 /* StarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
 		5EB660362C78A487006672CA /* Nushift_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nushift_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB660392C78A487006672CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EB6603B2C78A487006672CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EB6603D2C78A487006672CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EB660402C78A487006672CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EB660422C78A489006672CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EB660452C78A489006672CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,11 @@
 		5EB660562C78A489006672CA /* Nushift_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nushift_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB6605A2C78A489006672CA /* Nushift_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nushift_TestUITests.swift; sourceTree = "<group>"; };
 		5EB6605C2C78A489006672CA /* Nushift_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nushift_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EB6606E2C78ADFE006672CA /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		5EB660702C78B037006672CA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		5EB660722C78B30A006672CA /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		5EB660742C78B344006672CA /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		5EB660762C78B49A006672CA /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EAD2F042C79D02C00057D63 /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				5EAD2F012C79D02C00057D63 /* StarRatingStackView.swift */,
+				5EAD2F022C79D02C00057D63 /* StarRatingStackView.xib */,
+				5EAD2F032C79D02C00057D63 /* StarRatingView.swift */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
 		5EB6602D2C78A487006672CA = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +129,13 @@
 			children = (
 				5EB660392C78A487006672CA /* AppDelegate.swift */,
 				5EB6603B2C78A487006672CA /* SceneDelegate.swift */,
-				5EB6603D2C78A487006672CA /* ViewController.swift */,
-				5EB6603F2C78A487006672CA /* Main.storyboard */,
+				5EB6606D2C78AD9F006672CA /* ViewController */,
+				5EB6606C2C78AD97006672CA /* Networking */,
+				5EB6606B2C78AD8C006672CA /* ViewModel */,
+				5EB6606A2C78AD85006672CA /* View */,
+				5EB660692C78AD7D006672CA /* Model */,
 				5EB660422C78A489006672CA /* Assets.xcassets */,
+				5EAD2F042C79D02C00057D63 /* RatingView */,
 				5EB660442C78A489006672CA /* LaunchScreen.storyboard */,
 				5EB660472C78A489006672CA /* Info.plist */,
 			);
@@ -125,6 +157,49 @@
 				5EB6605C2C78A489006672CA /* Nushift_TestUITestsLaunchTests.swift */,
 			);
 			path = Nushift_TestUITests;
+			sourceTree = "<group>";
+		};
+		5EB660692C78AD7D006672CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EB6606E2C78ADFE006672CA /* MoviesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EB6606A2C78AD85006672CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EB6603F2C78A487006672CA /* Main.storyboard */,
+				5EB660762C78B49A006672CA /* MoviesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EB6606B2C78AD8C006672CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5EB660742C78B344006672CA /* MoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5EB6606C2C78AD97006672CA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5EB660702C78B037006672CA /* APIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5EB6606D2C78AD9F006672CA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EB660722C78B30A006672CA /* MoviesViewController.swift */,
+				5EAD2EF62C79C5CE00057D63 /* MovieDetailsViewController.swift */,
+				5EAD2EF82C79C72E00057D63 /* UIViewController+NavigationController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAD2F062C79D02C00057D63 /* StarRatingStackView.xib in Resources */,
 				5EB660432C78A489006672CA /* Assets.xcassets in Resources */,
 				5EB660462C78A489006672CA /* Base in Resources */,
 				5EB660412C78A487006672CA /* Base in Resources */,
@@ -258,9 +334,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB6603E2C78A487006672CA /* ViewController.swift in Sources */,
+				5EAD2EF72C79C5CE00057D63 /* MovieDetailsViewController.swift in Sources */,
+				5EB6606F2C78ADFE006672CA /* MoviesModel.swift in Sources */,
+				5EAD2F072C79D02C00057D63 /* StarRatingView.swift in Sources */,
+				5EAD2F052C79D02C00057D63 /* StarRatingStackView.swift in Sources */,
+				5EB660712C78B037006672CA /* APIService.swift in Sources */,
+				5EB660772C78B49A006672CA /* MoviesTableViewCell.swift in Sources */,
 				5EB6603A2C78A487006672CA /* AppDelegate.swift in Sources */,
+				5EAD2EF92C79C72E00057D63 /* UIViewController+NavigationController.swift in Sources */,
 				5EB6603C2C78A487006672CA /* SceneDelegate.swift in Sources */,
+				5EB660752C78B344006672CA /* MoviesViewModel.swift in Sources */,
+				5EB660732C78B30A006672CA /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

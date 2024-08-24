@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+struct MoviesModel: Codable {
+    let page: Int?
+    let results: [Movies]
+}
+
+struct Movies: Codable {
+    let title: String?
+    let release_date: String?
+    let poster_path: String?
+    let overview: String?
+    let vote_average: Double?
+}
+

@@ -10,13 +10,15 @@ import Foundation
 class MoviesViewModel {
     
     private var apiService = APIService()
-    private var popularMovies = [Movies]()
+    var popularMovies = [Movies]()
+    private var database = DataBaseLayer()
     
     func fetchPopularMoviesData(completion: @escaping () -> ()) {
         apiService.getPopularMoviesAPIResponse { [weak self] (result) in
             switch result {
             case .success(let listOf):
                 self?.popularMovies = listOf.results
+                self?.database.saveInCoreDataWith(movies: self?.popularMovies ?? [])
                 completion()
             case .failure(let error):
                 print("Error processing json data: \(error)")

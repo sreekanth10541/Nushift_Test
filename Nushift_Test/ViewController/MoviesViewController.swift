@@ -6,27 +6,42 @@
 //
 
 import UIKit
+import CoreData
 
 class MoviesViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     private var viewModel = MoviesViewModel()
-
+    private var dataBaseLayer = DataBaseLayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         self.setupNavBar(self)
         self.title = "Popular Movies"
-        loadPopularMoviesData()
+        
+        // Check from DB, if YES display the information else fetch from API
+        let moviesList = dataBaseLayer.fetchMovieDataFromDB()
+        if moviesList.count > 0 {
+            viewModel.popularMovies = moviesList
+            self.reloadTableView()
+        }
+        else {
+            loadPopularMoviesData()
+        }
     }
     
     private func loadPopularMoviesData() {
         viewModel.fetchPopularMoviesData { [weak self] in
-            self?.tableView.dataSource = self
-            self?.tableView.delegate = self
-            self?.tableView.reloadData()
+            self?.reloadTableView()
         }
+    }
+    
+    private func reloadTableView() {
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
+        self.tableView.reloadData()
     }
 }
 

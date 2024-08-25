@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7BE27457-7DC8-45FD-B878-8BD0009C72E1"
+            uuid = "E2BF8E65-ED98-4769-81BF-9A28027D4B68"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Nushift_Test/ViewController/MovieDetailsViewController.swift"
+            filePath = "Nushift_Test/Core Data/DataBaseLayer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "convertManagedObjectToJSONArray(moArray:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
